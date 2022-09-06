@@ -30,6 +30,7 @@ public class ManagerTest {
         String[] actual = manager.FindLast();
         Assertions.assertArrayEquals(expected, actual);
     }
+
     @Test
     public void AddAll() {
         String movie1 = "movie1";
